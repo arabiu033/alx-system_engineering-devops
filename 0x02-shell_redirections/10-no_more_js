@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -d -1 "$PWD/"*{*/*,.*} | grep ".js" | rm
