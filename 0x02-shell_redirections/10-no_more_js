@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls -d -1 "$PWD/"{*.*,**/*} | grep ".js")
+rm $(ls -d -1 "$PWD/"{*.*,**/*} | grep ".js")
