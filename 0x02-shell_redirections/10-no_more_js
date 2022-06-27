@@ -1,2 +1,2 @@
 #!/bin/bash
-rm $(ls -d -1 "$PWD/"{*.*,**/*} | grep ".js")
+find . -name "*.js" -type f -delete
