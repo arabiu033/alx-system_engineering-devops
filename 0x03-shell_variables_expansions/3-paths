@@ -1,2 +1,2 @@
 #!/bin/bash
-find $PATH -type d -mindepth 2
+echo $STRING| grep -o l | wc -l +1
